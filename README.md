@@ -1,6 +1,6 @@
 # QNOS-QVM 0.1 — Quantum Native OS Research Virtual Machine
 
-**Standalone research project** — deliberately independent of the QMINIX/HQCOF series.
+**Standalone research project** —
 
 This first release is a portable **C++17 quantum-state simulator and quantum resource/job runtime**. It does not boot physical qubits, does not implement a self-hosted quantum OS, and does not run OpenQASM directly. Instead it executes the explicitly specified **QNOS-QISA v0.1** subset through a statevector engine. Its FIFO job runtime runs on a conventional macOS/Linux host.
 
