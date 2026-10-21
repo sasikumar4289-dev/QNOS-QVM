@@ -1,0 +1,12 @@
+; Bell pair: Z basis correlations
+QALLOC q0
+QALLOC q1
+QRESET q0
+QRESET q1
+QH q0
+QCX q0 q1
+QMEASURE q0 c0
+QMEASURE q1 c1
+QRELEASE q0
+QRELEASE q1
+QEND

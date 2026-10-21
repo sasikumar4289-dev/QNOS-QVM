@@ -1,0 +1,9 @@
+; Simplified one-input Deutsch-Jozsa phase oracle Z
+QALLOC q0
+QRESET q0
+QH q0
+QZ q0
+QH q0
+QMEASURE q0 c0
+QRELEASE q0
+QEND
